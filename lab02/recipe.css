@@ -2,50 +2,35 @@ body { background-color: #eaddca; }
 
 h1 { background-color: #7b4000;
     color: white;
-    font-family: sans-serif;
-    margin: auto;
     width: 60%;
     text-transform: lowercase;
     border: 2px solid #a5733d;
-    text-align: center;
-    margin-bottom: 12px; }
+    text-align: center; }
     
 h2 { background-color: white;
     color: #7b4000;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: auto;
     width: 60%;
     text-transform: lowercase;
     border: 2px solid #7b4000;
-    text-align: center;
-    margin-bottom: 12px; }
+    text-align: center; }
 
 h3 { background-color: #a5733d;
     color: white;
-    font-family: sans-serif;
-    margin: auto;
     width: 60%;
     text-transform: lowercase;
     border: 2px solid #7b4000;
-    text-align: center;
-    margin-bottom: 12px; }
+    text-align: center; }
 
 p { height:50px;
     background-color: #7b4000;
     color: rgb(248, 252, 1);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: auto;
     width: 60%;
     text-transform: uppercase;
     border: 2px solid #a5733d;
-    text-align: center;
-    margin-bottom: 12px; }
+    text-align: center; }
 
 li{ color:#7b4000;
     text-transform: capitalize;
-    font-family: sans-serif;
     margin-left: 40px;
     border: 4px dotted white;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 12px; }
+    width: 50%;}
