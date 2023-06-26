@@ -8,9 +8,10 @@ h1 { background-color: #7b4000;
     text-transform: lowercase;
     border: 2px solid #a5733d;
     text-align: center;
-    margin-bottom: 12px;
-    background-image: url(https://i.pinimg.com/564x/68/67/b4/6867b4ed0adcfd9441248010827d640f.jpg")}
-    
+    margin-bottom: 12px;}
+h3 {background-image:  url(https://cdn.discordapp.com/attachments/482909539772006423/1122708500225740860/istockphoto-1323791236-612x612.jpg); 
+background-size: cover;
+  height: 150px;}
 H2 { background-color: white;
     color: #7b4000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
