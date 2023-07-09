@@ -1,6 +1,16 @@
 body { background-color: #eaddca; }
 
-h1 { background-color: #7b4000;
+
+.container {
+  width: 80%
+  margin: auto
+}
+.header {
+  background-image: url("")
+}
+
+h1 { text-align: center
+    background-color: #7b4000;
     color: white;
     font-family: sans-serif;
     margin: auto;
@@ -8,11 +18,51 @@ h1 { background-color: #7b4000;
     text-transform: lowercase;
     border: 2px solid #a5733d;
     text-align: center;
-    margin-bottom: 12px; }
-
-h3 { background-color: #a5733d;
-    color: white;
-    font-family: sans-serif;
+    margin-bottom: 12px;}
+/* .ingredients_container {
+  display: flex;
+  gap: 5%;
+}
+.ingredients_container div:first-child {
+  flex: 2.7;
+}
+.ingredients_container div:last-child {
+  flex: 8.3;
+} */
+.content {
+  display: flex;
+}
+.ingredients_container {
+  flex: 4;
+}
+.steps_container {
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ingredients_container img {
+  max-width: 90%;
+  border-radius: 5%;
+}
+.steps_image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: end;
+}
+.steps_container img {
+  width: 70%;
+  max-height: 75%;
+  border-radius: 5%;
+  margin-bottom: 5px;
+}
+h3 {background-image:  url(https://cdn.discordapp.com/attachments/482909539772006423/1122708500225740860/istockphoto-1323791236-612x612.jpg); 
+background-size: cover;
+  height: 150px;}
+H2 { background-color: white;
+    color: #7b4000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: auto;
     width: 60%;
     text-transform: lowercase;
@@ -20,9 +70,10 @@ h3 { background-color: #a5733d;
     text-align: center;
     margin-bottom: 12px; }
 
-H2 { background-color: white;
-    color: #7b4000;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+h3 { background-color: #a5733d;
+    color: white;
+    font-family: sans-serif;
     margin: auto;
     width: 60%;
     text-transform: lowercase;
@@ -49,3 +100,22 @@ li{ color:#7b4000;
     width: 50%;
     margin: auto;
     margin-bottom: 12px; }
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  width: 35%;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #ccc;
+}
