@@ -1,16 +1,16 @@
 /* styles.css */
 
-/* Set the background color to light purple */
+/* Set the background color to dark purple */
 body {
   color: rebeccapurple; background-image: url('https://cdn.discordapp.com/attachments/482909539772006423/1130316176610832444/image.png');
 }
 
-/* Set the header background color to deep purple */
+/* Set the header background color to pink */
 .container .header {
   background-color: pink;
 }
 
-/* Set the link color to light pink */
+/* Set the link color to deep pink */
 .container .header a {
   color: deeppink;
 }
