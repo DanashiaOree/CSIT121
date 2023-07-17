@@ -3,6 +3,7 @@
 /* Set the background color to light purple */
 body {
   color: rebeccapurple;
+ ;
 }
 
 /* Set the header background color to deep purple */
