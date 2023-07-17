@@ -7,6 +7,12 @@ body {
 }
 
 /* Set the header background color to deep purple */
+
+.container .h2 {
+  background-color: pink;
+}
+
+
 .container .header {
   background-color: pink;
 }
