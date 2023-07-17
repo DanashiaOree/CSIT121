@@ -3,7 +3,6 @@
 /* Set the background color to light purple */
 body {
   color: rebeccapurple;
-  background-image: url("https://cdn.discordapp.com/attachments/482909539772006423/1130316176610832444/image.png");
 }
 
 /* Set the header background color to deep purple */
