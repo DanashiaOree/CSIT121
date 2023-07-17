@@ -3,17 +3,14 @@
 /* Set the background color to light purple */
 body {
   color: rebeccapurple;
- ;
 }
 
 /* Set the header background color to deep purple */
-
-.container .h2 {
+h2 {
   background-color: pink;
 }
 
-
-.container .header {
+.header {
   background-color: pink;
 }
 
