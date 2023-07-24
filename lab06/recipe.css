@@ -93,3 +93,18 @@ p {
   background-color: #7b4000;
   color: rgb(248, 252, 1);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida
+
+@media (max-width: 768px) {
+
+     .ingredients {width: 100%;
+          float: none;}
+     .directions {width: 100%;
+          float: none;
+          margin: 0;}
+     body { background-color:#9fc5e8;
+           background-image: url(images/olive.png);
+           background-size: contain; 
+           font-size: 14px;}
+     img{ max-width: 100%;
+          height: auto; }      
+}
