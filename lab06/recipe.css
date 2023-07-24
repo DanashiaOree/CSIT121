@@ -11,7 +11,7 @@ body {
   background-image: url("images/soup.jpg");
   background-size: auto;
   background-position: center;
-  height: 70vh;
+  height: 100px;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
@@ -31,6 +31,7 @@ h1 {
 .content {
   display: flex;
   justify-content: center; /* Add this line to horizontally center the containers */
+ 
 }
 
 .ingredients_container {
@@ -46,6 +47,7 @@ h1 {
   margin-left: 0px; /* Add some spacing between the containers */
 }
 
+
 .ingredients_container img {
   max-width: 60%;
   border-radius: 5%;
@@ -58,13 +60,14 @@ h1 {
   align-items: end;
 }
 
+
 h3 {
   background-image: url(https://cdn.discordapp.com/attachments/482909539772006423/1122708500225740860/istockphoto-1323791236-612x612.jpg);
   background-size: cover;
   height: 150px;
 }
 
-h2 {
+H2 {
   background-color: white;
   color: #7b4000;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -92,7 +95,49 @@ p {
   height: 50px;
   background-color: #7b4000;
   color: rgb(248, 252, 1);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: auto;
+  width: 60%;
+  text-transform: uppercase;
+  border: 2px solid #a5733d;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+li {
+  color: #7b4000;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  margin-left: 40px;
+  border: 4px dotted white;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 12px;
+}
+
+ol {
+  color: #7b4000;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  margin-left: 40px;
+  border: 4px ;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 12px;
+  
+}
+ol {
+  color: #7b4000;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  margin-left: 40px;
+  border: 4px ;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 12px;
+}
 
 @media (max-width: 768px) {
 
