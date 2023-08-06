@@ -72,6 +72,11 @@ color: #fdb7ff;
 
 }
 
+.comment p2 {
+    margin: 0;
+  background-color: #ffff;
+}
+
 .comment-author {
     font-weight: bold;
 }
