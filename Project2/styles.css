@@ -114,3 +114,9 @@ color: #fdb7ff;
   background-color: #1e011f;
     margin: auto auto;
 }
+
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
